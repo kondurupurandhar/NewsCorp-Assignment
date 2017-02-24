@@ -1,0 +1,6 @@
+{
+   "googleAPI": "https://maps.googleapis.com/maps/api/geocode/json?address=",
+   "weatherAPILocation": "https://api.darksky.net/forecast/",
+   "secreatKey": "67d85e03bdcdac04e9b7a3f268c5f11e"
+}
+
