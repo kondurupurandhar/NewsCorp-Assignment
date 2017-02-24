@@ -5,20 +5,18 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node ./src/server.js",
-    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+    "test": "mocha test"
   },
   "dependencies": {
-            "express":"*",
-            "request":"*"
+            "express":"4.14.1",
+            "request":"2.79.0"
           },
+  "devDependencies": {
+            "mocha":"3.2.0",
+            "chai":"3.5.0",
+            "chai-http":"3.0.0"
+  },
   "repository": "",
-  "keywords": [
-    "Node.js",
-    "Eclipse",
-    "Nodeclipse"
-  ],
-  "author": "",
-  "license": "BSD",
+  "author": "Purandhar",
   "readmeFilename": "README.md"
 }
-
