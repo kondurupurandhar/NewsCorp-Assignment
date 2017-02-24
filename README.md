@@ -29,7 +29,7 @@ curl http://localhost:8080/weather/thursday
 
 curl http://localhost:8080/weather/today
 
-## How to test
+## How to run test cases ?
 
 From the current folder run the below command:
 
