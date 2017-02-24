@@ -29,9 +29,9 @@ Access the server using below curl commands
 
 curl http://localhost:8080/weather/chennai
 
-curl http://localhost:8080/weather/thursday
+curl http://localhost:8080/weather/chennai/thursday
 
-curl http://localhost:8080/weather/today
+curl http://localhost:8080/weather/chennai/today
 
 ## How to run test cases ?
 
