@@ -6,6 +6,10 @@ https://api.darksky.net/forecast/[key]/[latitude],[longitude]
 
 https://api.darksky.net/forecast/[key]/[latitude],[longitude],[time]
 
+Used the below Google API go get the latitude and longitude:
+
+https://maps.googleapis.com/maps/api/geocode/json?address=
+
 ## NPM Module used:
 Used the below modules in application server:
 
@@ -33,7 +37,7 @@ curl http://localhost:8080/weather/today
 
 From the current folder run the below command:
 
-mocha test
+mocha test or npm test
 
 Before running the command install below module:
 
